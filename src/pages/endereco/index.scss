@@ -1,0 +1,144 @@
+.div-endereco{
+
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+
+    .engloba{
+        padding: 20px;
+        width: 97vh;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .vsf{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .endereco{
+        border: 1px #000 solid;
+
+        padding: 40px;
+        border-radius: 20px;
+        width: 550px;
+    }
+
+    .inp1{
+        input{
+            border: #000 solid 1px;
+
+            border-radius: 10px;
+            height: 40px;
+            width: 500px;
+        }
+    }
+
+    .inp2{
+        input{
+            border: #000 solid 1px;
+
+            border-radius: 10px;
+            height: 40px;
+            width: 250px;
+        }
+
+        .i1{
+            margin-right: 10px;
+        }
+
+        .i2{
+            margin-left: 10px;
+        }
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inp3{
+        input{
+            border: #000 solid 1px;
+
+            border-radius: 10px;
+            height: 40px;
+            width: 250px;
+        }
+    }
+
+
+
+
+    .compla{
+
+        width: 300px;
+        padding: 20px;
+        padding-top: 50px;
+
+        background-color: #ebebeb;
+
+        .ahah{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            img{
+                height: 150px;
+                width: 150px;
+
+                margin-bottom: 20px;
+            }
+        }
+
+        .dui{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .d{
+            background-color: #000;
+
+            height: 1px;
+            width:300px;
+            margin-bottom: 15px;
+        }
+
+        .bu{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 100px;
+
+            button{
+                background-color: #1A91FFF7;
+                color: #fff;
+
+                text-align: center;
+                border: none;
+
+                height: 45px;
+                width: 180px;
+                border-radius: 10px;
+                padding: 10px;
+        }}
+
+        .diu{
+            display: flex;
+            justify-content: space-between;
+
+            margin-bottom: 15px;
+        }
+        
+    }
+}

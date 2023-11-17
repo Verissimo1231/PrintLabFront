@@ -1,0 +1,157 @@
+.div-Produto{
+
+    .roll{
+        display: flex;
+        flex-direction: row;
+
+        padding: 40px;
+    }
+
+    .roll > div{
+        padding: 20px;
+    }
+
+    .tabela{
+        display: flex;
+        flex-direction: column;
+
+        width: 550px;
+    }
+
+    .tabela > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        border: #000 solid 1px;
+        padding: 20px;
+    }
+
+    .cinza{ 
+        background-color: #D9D9D9;
+    }
+
+    .cinzab{
+        background-color: #ECE9E980;
+    }
+
+    .desc{
+        width: 500px;
+    }
+
+    .d{
+        height: 1px;
+        background-color: #656565;
+
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .negrito{
+        background-color: #262626;
+        height: 10px;
+    }
+
+    .conf{
+        border: #656565 solid 1px;
+    
+        padding: 40px;
+        margin-bottom: 100px;
+    }
+
+
+    .outros{
+        border: #000 1px solid;
+
+        padding: 40px;
+    }
+
+    .divz{
+        display: flex;
+        flex-direction: row;
+
+        div{
+            display: flex;
+            flex-direction: column;
+
+            img{
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
+
+    .azul{
+        color: #2665C2;
+    }
+
+    .vdr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:400px;
+    }
+
+    .azulo{
+        margin-top: 50px;
+        border-radius: 40px;
+        color: #fff;
+        padding: 10px;
+        background-color: #1465DF;
+        width: 400px;
+        height: 50px;
+        border: none;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .cinzo{
+        border-radius: 40px;
+        color: #3961ED;
+        padding: 10px;
+        background-color: #AECDFD;
+        width: 400px;
+        height: 50px;
+        border: none;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .centro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top:70px
+    }
+
+    .oque-faltava{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .oque-faltava > div{
+        margin: 20px;
+    }
+
+    .aaa{
+
+        width: 120px 120px;
+
+        div{
+            margin: 10px;
+        }
+    }
+
+    .bbb{
+        img{
+            width: 400px;
+            height: 500px;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,76 @@
+.div-CLiente{
+
+    background-color: #fff;
+
+
+    .titu{
+        padding-left: 24px;
+        padding-top: 20px;
+    }
+
+    .titu2{
+        padding-left: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .divs{
+        display: flex;
+        flex-direction: column;
+
+        padding: 20px;
+
+        a{
+            margin: 10px;
+
+            color: #272727;
+        }
+
+        a:hover{
+            color: #1A91FF;
+        }
+    }
+
+    .d{
+        background-color: #8C7A7A;
+
+        width: 1px;
+        height: 1000px;
+    }
+
+    .d2{
+        background-color: #8C7A7A;
+
+        height: 1px;
+        width: 950px;
+
+        margin-top: 40px;
+    }
+
+    .caixa{
+        display: flex;
+        flex-direction: row;
+
+        margin: 0px;
+
+        width: 700px;
+
+        .caixa2{
+            display: flex;
+            flex-direction: column;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+
+        h2{
+            margin: 5px
+        }
+    }
+
+}

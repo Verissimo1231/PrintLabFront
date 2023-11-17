@@ -1,0 +1,75 @@
+.div-lo{
+    
+
+    height: 100vh;
+
+    .divlol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    background-image: url('fundo2.png');
+    background-repeat: no-repeat;
+    background-size: 1300px 800px;
+    
+
+
+    .container{
+        background-color: #fff;
+        padding: 40px;
+
+
+        a{
+            color: #1A91FF;
+        }
+
+        button{
+            border: solid 1px #A9A9A9;
+            color: #000;
+            background-color: #fff;
+
+            border-radius: 30px;
+            padding: 10px;
+            width: 200px;
+            height: 60px;
+            font-size:22px ;
+            text-align: center;
+        }
+
+        input{
+            border-radius: 40px;
+            border: 1px solid #a9a9a9;
+            padding: 10px;
+            width: 400px;
+            height: 30px;
+        }
+    }
+
+    .titu{
+        margin-bottom: 50px;
+    }
+
+    .pau{
+        width: 400px;
+    }
+
+    .but{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .erro{
+        color: red;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}

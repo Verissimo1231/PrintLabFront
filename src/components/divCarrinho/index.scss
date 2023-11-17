@@ -1,0 +1,24 @@
+.comp-div{
+
+        display: flex;
+        flex-direction: row;
+
+
+        width: 600px;
+
+        div{
+            margin: 20px;
+            width: 200px;
+        }
+
+        img{
+            height: 110px;
+        }
+
+        .ds{
+            background-color: #8C7A7A;
+
+            width: 1px;
+            height: 120px;
+        }
+}

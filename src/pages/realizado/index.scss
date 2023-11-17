@@ -1,0 +1,54 @@
+.div-Realizado{
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    .lupa{
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+    }
+
+    .tala{
+        margin-bottom: 20px;
+    }
+
+    a{
+        color: #1A91FF;
+    }
+
+    .container{
+
+        border: rgba(0, 0, 0, 0.25) solid 1px;
+
+        border-radius: 20px;
+        padding: 40px;
+    }
+
+    .gu{
+        width: 850px;
+        text-align: center;
+    }
+
+    .div1{
+        display: flex;
+        flex-direction: row;
+
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .centro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}

@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'mah';
+    src: url(../assets/fonts/MerriweatherSans-VariableFont_wght.ttf);
+}
+
+#above {
+    display: flex;
+    width: 100%;
+
+
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+}
+
+#background {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../assets/image/assets1\ \(1\).png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#background input {
+    background-color: white;
+    border: none;
+    width: 200%;
+    height: 5vh;
+
+}
+
+#inputdiv {
+    width: 40%;
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+
+}
+
+#pesq {
+    width: 25%;
+    height: 5vh;
+    background-image: url(../assets/image/asset2.png);
+    background-size: cover;
+    border-left: solid rgb(99, 99, 99) 1px;
+}
+
+#background p {
+    color: white;
+    font-family: Merriweather Sans;
+    font-family: mah;
+
+}
+
+#background h2 {
+    color: white;
+    font-family: mah;
+}
+
+#psd {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    
+    padding: 20px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    
+}
+
+.options>h2 {
+    font-family: mah;
+    font-size: 20px;
+    
+}
+
+.klk {
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.klk img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.klk h1 {
+    font-family: mah;
+}
+
+.klk p {
+    font-family: mah;
+    font-size: medium;
+    text-align: center;
+}
+
+

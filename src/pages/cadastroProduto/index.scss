@@ -1,0 +1,172 @@
+.page{
+    padding: 40px;
+
+    .titu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img{
+            margin: 5px;
+        }
+
+    }
+
+    textarea{
+        width:520px;
+        height: 150px;
+    }
+
+    .con{
+        display: flex;
+        flex-direction: column;
+
+        padding: 50px;
+        padding-top: 20px;
+
+        width: 550px;
+
+    }
+
+    h3{
+        margin: 0px;
+    }
+
+    input{
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+
+    .inip{
+        display: flex;
+        flex-direction: row;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        input{
+            width: 250px;
+            height: 35px;
+        }
+    }
+
+    .inp2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        input{
+            width: 150px;
+            height: 35px;
+        }
+    }
+
+    .inp3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        input{
+            width: 150px;
+            height: 35px;
+        }
+    }
+
+    .inp4{
+        display: flex;
+        flex-direction: row;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        input{
+            width: 520px;
+            height: 150px;
+        }
+    }
+
+    .butonho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        button{
+            border-radius: 10px;
+            padding: 10px;
+            width: 120px;
+
+            background-color: rgba(130, 130, 130, 0.12);
+            color: #000;
+
+            border: none;
+        }
+
+    }
+
+    .ver{
+        background-color: #00FF6640;
+        border-radius: 10px;
+        padding: 10px;
+        width: 120px;
+
+        color: green;
+
+        border: none;
+    }
+
+    .divil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 30px;
+    }
+
+    .imol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px black solid;
+        border-radius: 20px;
+
+        height: 250px;
+        width: 250px;
+        padding: 20px;
+    }
+
+    #mer{
+        visibility: hidden;
+        position: absolute;
+    }
+
+}

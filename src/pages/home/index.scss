@@ -1,0 +1,286 @@
+.above{
+    width: 1260px;
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+
+
+.header{
+    
+    height: 128px;
+    background-color: #262626;
+    padding: 0px;
+    
+}
+
+.cima{
+    margin: 0px;
+    width: 1270px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.inputpesquisa{
+    height: 35px;
+    width: 550px;
+    margin-right: 340px;
+}
+
+.butcr{
+    background-color: #8b8b8b00;
+    border: 1px solid #d8d8d8;
+    height: 34px;
+    width: 140px;
+    border-radius: 40px;
+    color: #d8d8d8;
+    margin: 10px;
+}
+
+.imglogo{
+    height: 140px;
+    width: 190px;
+    margin: 0px;
+}
+
+.baixo{
+    display: flex;
+    height: 40px;
+    width: 1280px;
+   align-items: center;
+    flex-direction: row;
+    padding-left: 190px;
+}
+
+.pto{
+    color: #d8d8d8;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-size:15px;
+}
+
+.inputpesquisa::placeholder{
+    padding-left: 8px;
+}
+
+.butcr:hover{
+    background-color: #d8d8d8;
+    transition: 500ms;
+    color: #262626;
+    
+}
+
+.pto:hover{
+
+   transition: 200ms;
+   margin-bottom:3px ;
+}
+
+.imgcar{
+    height: 35px;
+    width: 45px;
+    margin-left: 510px;
+}
+
+.opa{
+    height: 35px;
+    width: 45px;
+    
+}
+
+.ppa{
+    background-image:url('Capturar.PNG');
+    display: flex;
+    height: 410px;
+    background-size: 1360px 420px;
+    
+    
+    
+    background-repeat: no-repeat;
+}
+
+
+/*
+section img{
+    height: 425px;
+    
+    
+    
+}
+*/
+
+.tpo{
+    background-color: #a7edfa00;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    align-items: center;
+    
+
+}
+
+#tp1{
+    background-color: rgb(255, 255, 255);
+    height: 4900px;
+    width: 1090px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+   
+
+align-items: center;
+
+}
+
+#imgtp{
+    
+    height: 330px;
+    width: 380px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#tp2{
+    height: 330px;
+    width: 650px;
+  
+    padding-left: 20px;
+    
+}
+
+
+#tp2 h1{
+    font-family: 'roboto' ;
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+}
+
+#tp2 p{
+    font-family: 'roboto';
+    font-size: 23px;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#tp2 button{
+    font-family: 'roboto';
+    font-size: large;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 2px solid #00000063;
+    color: #262626;
+    margin-left: 240px;
+}
+
+#tp2 button:hover{
+    border-color: #fff;
+    background-color: #262626;
+    color: #fff;
+    transition: 500ms;
+    
+}
+
+#imgop{
+    height: 330px;
+    width: 380px;
+    background-image: url('93986058ee5dabad9161666eedbdf705 (1).jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#imgpp{
+    height: 330px;
+    width: 380px;
+    background-image: url('1534af0883834ad63654da55f618c624.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.ppw{
+    padding-left: 425px;
+}
+
+.imgpd{
+    height: 330px;
+    width: 380px;
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-right: 37px;
+}
+
+.asps{
+    margin-right: 500px;
+}
+
+#imgimpre{
+
+    background-size: 1270px 620px;
+    width: 1270px;
+    height: 620px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#imgimpre h1{
+    color: #D9D9D9;
+
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-self: center;
+}
+
+#imgimpre p{
+    color: #D9D9D9;
+
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 1100px;
+    margin-bottom: 180px;
+
+}
+
+#classbb a{
+    color: #4ea9ff;
+}
+
+}
