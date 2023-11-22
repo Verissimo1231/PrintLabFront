@@ -1,10 +1,16 @@
 import './index.scss';
 import Histolico from '../../components/divHistorico';
+import Cabecalho from '../../components/cabecalho';
+import Rodape from '../../components/rodape';
+
 
 export default function ResultadosA(){
 
     return(
         <div className='div-page'>
+            
+            <Cabecalho/>
+            <div className='container'>
 
             
 
@@ -17,6 +23,10 @@ export default function ResultadosA(){
             <Histolico/>
             <Histolico/>
 
+            </div>
+            <Rodape/>
+        
+        
         </div>
     );
 }

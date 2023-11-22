@@ -1,0 +1,86 @@
+.header{
+    
+    height: 128px;
+    background-color: #262626;
+    padding: 0px;
+    
+}
+
+.cima{
+    margin: 0px;
+    width: 1270px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.inputpesquisa{
+    height: 35px;
+    width: 550px;
+    margin-right: 340px;
+}
+
+.butcr{
+    background-color: #8b8b8b00;
+    border: 1px solid #d8d8d8;
+    height: 34px;
+    width: 140px;
+    border-radius: 40px;
+    color: #d8d8d8;
+    margin: 10px;
+}
+
+.imglogo{
+    height: 140px;
+    width: 190px;
+    margin: 0px;
+}
+
+.baixo{
+    display: flex;
+    height: 40px;
+    width: 1280px;
+   align-items: center;
+    flex-direction: row;
+    padding-left: 190px;
+}
+
+.pto{
+    color: #d8d8d8;
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-size:15px;
+}
+
+.inputpesquisa::placeholder{
+    padding-left: 8px;
+}
+
+.butcr:hover{
+    background-color: #d8d8d8;
+    transition: 500ms;
+    color: #262626;
+    
+}
+
+.pto:hover{
+
+   transition: 200ms;
+   margin-bottom:3px ;
+}
+
+.imgcar{
+    height: 35px;
+    width: 45px;
+    margin-left: 510px;
+}
+
+.opa{
+    height: 35px;
+    width: 45px;
+    
+}

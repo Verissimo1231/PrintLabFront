@@ -17,6 +17,7 @@ import LoginCliente from './pages/loginCliente';
 import LogiAdm from './pages/loginAdm';
 import CriarConta from './pages/criarConta';
 import CadastroP from './pages/cadastroProduto';
+import ResultadosA from './pages/resultadosAdm'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -38,6 +39,7 @@ root.render(
       <Route path='la' element={<LogiAdm/>}/>
       <Route path='cr' element={<CriarConta/>}/>
       <Route path='cp' element={<CadastroP/>}/>
+      <Route path='ra' element={<ResultadosA/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

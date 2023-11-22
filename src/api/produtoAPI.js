@@ -1,6 +1,6 @@
 import axios from 'axios';
 const api = axios.create({
-    baseURL:'http://129.148.42.252:3024'
+    baseURL:'http://129.148.42.252:3024/...'
 });
 
 
@@ -59,5 +59,5 @@ export async function Cadastro(nome,categoria,preco,unidade,condicao,marca,produ
 
 
     export async function Consulta2(id){
-        
+
     }
