@@ -101,11 +101,11 @@ export default function Home(){
                 id="imgop"></div>
                 <div  id="tp2">
                     <h1>
-                        Impressoras 3D
+                        Impressões
                     </h1>
     
                     <p>
-                        Dê vida às suas ideias com precisão e criatividade. Impressoras 3D de última geração, disponíveis agora para transformar sua imaginação em realidade.
+                    Descubra a magia da impressão tridimensional e adquira peças exclusivas que vão encantar e surpreender você. Utilizamos filamentos sustentáveis feitos de materiais reciclados.
                     </p>
     
                     <button>

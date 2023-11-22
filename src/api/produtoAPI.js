@@ -42,3 +42,22 @@ export async function Cadastro(nome,categoria,preco,unidade,condicao,marca,produ
 
         return r.status;
     }
+
+
+    export async function Consulta(nome){
+        const r = await api.get(`/produto/busca?nome=${nome}`)
+
+        return r.data;
+    }
+
+
+    export async function Deletar(id){
+        const r = await api.delete(`/produto/${id}`);
+
+        return r.status;
+    }
+
+
+    export async function Consulta2(id){
+        
+    }

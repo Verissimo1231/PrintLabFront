@@ -76,10 +76,10 @@ A tela de 10 polegadas mono LCD 8K é desenvolvida conjuntamente pela ELEGOO e P
                             <div><button className='cinzo'>Adicionar ao Carrinho</button></div>
 
                             <div className='vdr'>
-                                <p className='azul'>Devolução Grátis</p>
+                                <p id='azulu'> <img src='/assets/images/volta.PNG' alt='' /> Devolução Grátis</p>
                                 <p>Você tem 7 dias a partir do recebimento do produto para devolve-lo, não importa o motivo</p>
                                 <p className='azul'>ver mais informações sobre as devoluções</p>
-                                <p className='azul'>Garantia</p>
+                                <p id='azulu'> <img src='/assets/images/garantia.png' alt='' /> Garantia</p>
                                 <p>3 messes da garantia de fábrica</p>
                                 <p className='azul'>Ver mais informações sobre a garantia</p>
                             </div>
