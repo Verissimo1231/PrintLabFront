@@ -1,14 +1,15 @@
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 
 export default function Cabecalho(){
 
     return(<div className="header">
-    <div class="cima">
+    <div className="cima">
       <img src="/assets/images/printlol.png" alt="" class="imglogo"/>
-      <input type="text" placeholder="Pesquisar" class="inputpesquisa" />
-      <button class="butcr">Criar conta</button>
-      <button class="butcr">Login</button>
+      <div className='inp'><input type="text" placeholder="Pesquisar" className="inputpesquisa" /> <button><img src='/assets/images/lupa.png' alt=''/></button> </div>
+      <Link className="butcr" to='/cr'>Criar conta</Link>
+      <Link className="butcr" to='/lc'>Login</Link>
     </div>
     <div class="baixo">
         <a href="" class="pto">Categorias</a>

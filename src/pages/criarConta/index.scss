@@ -13,7 +13,10 @@
     background-image: url('fundo1.png');
     background-repeat: no-repeat;
     
-
+    .inp{
+        display: flex;
+        flex-direction: column;
+    }
 
     .container{
         background-color: #fff;

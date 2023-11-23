@@ -18,6 +18,10 @@
     width: auto;
     
 
+    .inp{
+        display: flex;
+        flex-direction: column;
+    }
 
     .container{
         background-color: #fff;

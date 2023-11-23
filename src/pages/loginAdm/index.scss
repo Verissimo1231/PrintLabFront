@@ -47,6 +47,11 @@
         }
     }
 
+    .inp{
+        display: flex;
+        flex-direction: column;
+    }
+
     .titu{
         margin-bottom: 50px;
     }

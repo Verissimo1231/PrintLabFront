@@ -2,13 +2,13 @@
     
     height: 128px;
     background-color: #262626;
-    padding: 0px;
+    padding: 20px;
     
 }
 
 .cima{
     margin: 0px;
-    width: 1270px;
+    width: 500px;
     height: 85px;
     display: flex;
     flex-direction: row;
@@ -16,13 +16,30 @@
 
 }
 
+.inp{
+    display: flex;
+    flex-direction: row;
+
+
+    margin: 0px;
+
+    button{
+        border: none;
+        margin: 0px;
+    }
+}
+
 .inputpesquisa{
     height: 35px;
     width: 550px;
-    margin-right: 340px;
+    margin: 0px;
+
+    background-color: #fff;
+   
 }
 
 .butcr{
+    text-align: center;
     background-color: #8b8b8b00;
     border: 1px solid #d8d8d8;
     height: 34px;
